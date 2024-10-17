@@ -15,8 +15,7 @@ while wallet < 75:
                 print("Coin Accepted")
                 wallet += more
             case _:
-                print("Error invaild input")
-                print("this machine only accepts 50p, 20p, 10p & 5p coins.")
+                print("This machine only accepts 50p, 20p, 10p & 5p coins.")
 
 print("---------MENU---------")
 print("1: Americano:     70p")
@@ -24,6 +23,7 @@ print("2: Mocha:         75p")
 print("3: Latte:         70p")
 print("4: Iced Latte:    75p")
 print("5: Hot Cholocate: 55p")
+print(f"-----CREDIT: {wallet}p-----")
 pick = int(input("Please make a selection using the numbers: "))
 
 match pick:
