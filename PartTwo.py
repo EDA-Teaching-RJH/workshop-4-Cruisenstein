@@ -6,7 +6,7 @@ while wallet < 75:
         break
     else:
         print("------A coffee costs 75p.------")
-        print(f"You have {wallet} in credit")
+        print(f"You have {wallet}p in credit")
         more = int(input("Please enter a coin: "))
 
         match more:
