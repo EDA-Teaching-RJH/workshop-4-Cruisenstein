@@ -1,14 +1,14 @@
 wallet = 0
 
-
 while wallet < 75:
 
     if wallet >= 75:
         break
     else:
         print("------A coffee costs 75p.------")
-        print(f"You have", wallet, "in credit")
-        more = int(input("Please enter a coin."))
+        print(f"You have {wallet} in credit")
+        more = int(input("Please enter a coin: "))
+
         match more:
             case 5 | 10 | 20 | 50:
                 print("Coin Accepted")
@@ -19,7 +19,7 @@ while wallet < 75:
 
 wallet = wallet - 75
 print("------Thank you, enjoy your coffee.------")
-print("Your change is ", wallet)
+print(f"           Your change is {wallet}")
 
 
 
