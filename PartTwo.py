@@ -19,7 +19,7 @@ while wallet < 75:
 
 wallet = wallet - 75
 print("------Thank you, enjoy your coffee.------")
-print(f"           Your change is {wallet}")
+print(f"           Your change is {wallet}p")
 
 
 
